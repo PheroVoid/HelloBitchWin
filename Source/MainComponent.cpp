@@ -17,8 +17,8 @@ void MainComponent::paint (juce::Graphics& g)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
     g.setFont (juce::Font (40.f));
-    g.setColour (juce::Colours::yellow);
-    g.drawText ("Hello Bitch!!!", getLocalBounds(), juce::Justification::centred, true);
+    g.setColour (juce::Colours::aliceblue);
+    g.drawText ("Phero Void will change the wrld!!!", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void MainComponent::resized()
